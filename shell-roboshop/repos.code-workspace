@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../terraform"
+		},
+		{
+			"path": "../shell-practice"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
