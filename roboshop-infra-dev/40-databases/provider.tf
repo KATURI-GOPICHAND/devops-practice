@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "remote-stateaws-88s-dev"
-    key = "roboshop-dev-db" 
+    key = "roboshop-dev-sg-db" 
     region = "us-east-1"
     encrypt = true
     use_lockfile = true
@@ -18,5 +18,5 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-}
+} 
  
