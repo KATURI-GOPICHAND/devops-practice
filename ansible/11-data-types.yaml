@@ -5,7 +5,7 @@
     PROGRAM: "DevSecOps with AWS" # string
     DURATION: "140" # int/number
     IS_LIVE: true # bool
-    DETAILS: # map/directory
+    DETAILS: # map/directory {}
       MONTHS: 4
       TRAINER: "Sivakumar Reddy"
     TOPICS: # list -/[]
