@@ -14,7 +14,7 @@
     - Ansible
   tasks:
   - name: print variables
-    ansible.builten.debug:
+    ansible.builtin.debug:
       msg: |
         PROGRAM: {{ PROGRAM }}
         DURATION:  {{ DURATION }}
