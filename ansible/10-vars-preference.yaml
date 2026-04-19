@@ -13,4 +13,4 @@
     vars:
       NAME: "Ansible form TASK"
     ansible.builtin.debug:
-    msg: "Hi {{ NAME }}"
+      msg: "Hi {{ NAME }}"
