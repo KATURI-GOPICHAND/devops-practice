@@ -3,18 +3,19 @@
   connection: local
   vars:
     NAME: "Ansible form PLAY"
-  vars_files:
-  - course.yaml
+  # vars_files:
+  # - course.yaml
   vars_prompt: 
   - name: NAME
     prompt: please enter name
     private: false
   tasks:
   - name: print name
-    #vars:
-     # NAME: "Ansible form TASK"
+    # vars:
+    #   NAME: "Ansible form TASK"
     ansible.builtin.debug:
       msg: "Hi {{ NAME }}"
 
 # 1. Args
 # 2. Task
+# 3. File
