@@ -58,4 +58,4 @@
 
   - name: check ipv4
     ansible.builtin.debug:
-      msg: "{{ myIP | ansible.utils,ipv4 }}"
+      msg: "{{ myIP | ansible.utils.ipv4 }}"
